@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: ""
+  #version: ""
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
@@ -15,6 +15,12 @@ app:
   #  artifactId: ferret
   #  version: "1.2"
   #  type: war
+
+  maven:
+    groupId: io.openliberty.samples 
+    artifactId: io.openliberty.sample.getting.started 
+    version: "1.0-SNAPSHOT"
+    type: war
 
   # Set minimum and maximum number of instances of the application. 
   # If the minimum and maximum values are different, the service scales the
