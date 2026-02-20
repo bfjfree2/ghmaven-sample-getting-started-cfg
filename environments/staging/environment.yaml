@@ -19,7 +19,7 @@ app:
   maven:
     groupId: io.openliberty.samples 
     artifactId: io.openliberty.sample.getting.started 
-    version: "1.0-SNAPSHOT"
+    version: "1.0"
     type: war
 
   # Set minimum and maximum number of instances of the application. 
